@@ -1,0 +1,92 @@
+//body{
+//    background-color:#E4DBBF ;  
+//}
+ .submit{          
+    border : solid 3px #FFB685;
+    border-radius : 7px 7px 20px 20px ;
+    moz-border-radius : 7px 7px 20px 20px ;
+    font-size : 20px;
+    background-color: #FFFFFF;
+    padding : 5px 20px;
+    outline:0        
+ }          
+.submit:hover{background-color: #F8CEAB;}
+///used in login page of username and password
+.boxed {
+    border-radius: 15px/50px;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;
+    border-color: #FFFFFF;
+    position: absolute;
+}
+.inputs {
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;   
+    -webkit-box-shadow: 0 1px 0 #FFF, 0 -2px 5px rgba(0, 0, 0, 0.08) inset;
+    -moz-box-shadow: 0 1px 0 #fff, 0 -2px 5px rgba(0, 0, 0, 0.08) inset;
+    -ms-box-shadow: 0 1px 0 #fff, 0 -2px 5px rgba(0, 0, 0, 0.08) inset;
+    -o-box-shadow: 0 1px 0 #fff, 0 -2px 5px rgba(0, 0, 0, 0.08) inset;
+    box-shadow: 0 0px 0 #FFF, 0 -2px 5px rgba(0, 0, 0, 0.08) inset;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    background: #EAE7E7;
+    border: 1px solid #C8C8C8;
+    color: #777;
+    font: 13px Helvetica, Arial, sans-serif;
+    margin: 0 0 10px;
+    padding: 10px 10px 15px 40px;
+    width: 270px;
+}
+.inputs:focus {
+    background-color: #FFF;
+    border: 1px solid #70AB8F;
+    outline: none;
+}
+
+.noselect{
+    -webkit-touch-callout:none;-webkit-user-select:none;
+    -khtml-user-select: none;-moz-user-select: none;
+    -ms-user-select: none;user-select: none;
+}
+
+.textarea{
+    resize:none;
+    font-family: Lucida Sans Unicode;
+    background-color: #E4DBBF;
+    border: 2px solid #765942;
+    border-radius: 10px;
+    width:70%;
+    height: 200px;
+    outline:0;
+}
+
+.hr{
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(78, 177, 186,1);   
+}
+
+.fieldset {
+    font-family: sans-serif;
+    border: 5px solid #1F497D;
+    background: #ddd;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.fieldset:legend {
+    background: #1F497D;
+    color: #fff;
+    padding: 5px 10px ;
+    font-size: 32px;
+    border-radius: 5px;
+    box-shadow: 0 0 0 5px #ddd;
+    margin-left: 20px;
+}
